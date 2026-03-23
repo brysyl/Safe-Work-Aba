@@ -1,14 +1,14 @@
-*Safe-Work Aba: Digital Resilience Framework*
+## Safe-Work Aba: Digital Resilience Framework
 
-Ensuring Hardware-Backed Security for Emerging Tech Hubs.
+## Ensuring Hardware-Backed Security for Emerging Tech Hubs.
 
-*🌍 Overview*
+# 🌍 Overview
 
 Safe-Work Aba is a community-driven initiative based in Aba, Nigeria, designed to bridge the "Security Gap" for software engineers and digital professionals in emerging markets.
 
 In a landscape where SMS-based 2FA is increasingly vulnerable to interception and ISP-level surveillance is a reality, we aim to standardize Hardware Root of Trust protocols. This repository hosts the documentation, configuration scripts, and operational security (OPSEC) blueprints required to deploy secure, hardware-backed workstations.
 
-*🛡️ The Problem*
+# 🛡️ The Problem
 
 High-potential technical talent in West Africa often lacks access to the physical security hardware required to comply with international enterprise standards. 
 
@@ -28,7 +28,7 @@ Apricorn Aegis: AES-XTS 256-bit Hardware Encryption, Secure Off-cloud Cold Stora
 
 GL-iNet AX3000: WiFi 6 / WireGuard VPN Client, Hardware-level Network Isolation 
 
-*📖 Documentation & Guides*
+# 📖 Documentation & Guides
 
 This repository is building a library of open-source configuration guides:
  * [ ] Module 1: Hardening Linux/macOS for Remote Work.
@@ -36,7 +36,7 @@ This repository is building a library of open-source configuration guides:
  * [ ] Module 3: Zero-Trust Network Configuration for Public Access Points.
  * [ ] Module 4: Physical OPSEC for Hardware Encryption Keys.
        
-*🤝 Contributing*
+# 🤝 Contributing
 
 We welcome contributions from systems integrators, security researchers, and DevOps engineers.
  * Fork the repository.
@@ -44,11 +44,11 @@ We welcome contributions from systems integrators, security researchers, and Dev
  * Commit your changes (git commit -m 'Add WireGuard Setup Guide').
  * Push to the branch and open a Pull Request.
    
-*⚖️ License*
+# ⚖️ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-*📩 Contact*
+# 📩 Contact
 
 Lead Maintainer: Bright Sylvester
 Location: Aba, Nigeria
