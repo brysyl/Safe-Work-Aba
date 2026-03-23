@@ -51,5 +51,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 # 📩 Contact
 
 Lead Maintainer: Bright Sylvester
+
 Location: Aba, Nigeria
+
 Mission: Securing the future of work in Africa, one hardware key at a time.
