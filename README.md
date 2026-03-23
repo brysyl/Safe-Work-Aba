@@ -37,6 +37,7 @@ This repository is building a library of open-source configuration guides:
  * [ ] Module 4: Physical OPSEC for Hardware Encryption Keys.
        
 *🤝 Contributing*
+
 We welcome contributions from systems integrators, security researchers, and DevOps engineers.
  * Fork the repository.
  * Create a Feature Branch (git checkout -b feature/SecurityGuide).
@@ -44,9 +45,11 @@ We welcome contributions from systems integrators, security researchers, and Dev
  * Push to the branch and open a Pull Request.
    
 *⚖️ License*
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 *📩 Contact*
+
 Lead Maintainer: Bright Sylvester
 Location: Aba, Nigeria
 Mission: Securing the future of work in Africa, one hardware key at a time.
