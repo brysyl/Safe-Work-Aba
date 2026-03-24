@@ -15,4 +15,5 @@ This log tracks the deployment and technical verification of the **Hardware Root
 * **Mentorship Status:** 🟢 (Completed 5/5) | 🟡 (In-Progress) | 🔴 (Onboarded/No sessions yet).
 
 ---
-> **Note to Auditors:** For full cryptographic verification, run `gpg --recv-keys [GPG Key ID]` to verify the signatures against our public key registry.
+
+**Note to Auditors:** For full cryptographic verification, run `gpg --recv-keys [GPG Key ID]` to verify the signatures against our public key registry.
