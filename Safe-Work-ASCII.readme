@@ -1,0 +1,40 @@
++-------------------------------------------------------------+
+|               SAFE-WORK ABA (SWA) SYSTEM ARCHITECTURE         |
+|         (A Defensive AI & Hardware Root-of-Trust Framework) |
++-------------------------------------------------------------+
+               |                               |
+       [USER ENVIRONMENT]                      |
+               V                               |
++-----------------------------+       [CLOUDFLARE/WAF]
+|     Lead Engineer's Workstation|               | (Optional DDoS Protection)
+|   (OS: Linux/MacOS/Windows) |               |
++-----------------------------+               V
+               |                               |
+               +------------------>[ 1. SWA-SHIELD (LOCAL AI AGENT) ]
+               |                    * Monitors OS Telemetry (Process IDs)
+               |                    * Baseline: Local Network Patterns
+               |                    * Triggers Anomaly Flags (Token Theft)
+               |                               |
+               |                               |
+[ 2. YUBIKEY 5C NFC ]<------------------------+
+(FIDO2/WebAuthn)                    |
+* Physical Root-of-Trust            |
+* Signs commits (gpg --sign)        | (If AI Flags Anomaly)
+* Hardware Re-Auth Challenge <------+
+               |
+               |
+               V
++-----------------------------+
+|    [ 3. SECURE WORKFLOWS ]  |
+| * Verified GitHub Commits  |
+| * Secure SSH/VPN Access    |
+| * AES-256 Offline Backups  |
++-----------------------------+
+               |
+               V
++-----------------------------+
+| [ 4. PUBLIC AUDIT LOG ]     |
+| (GitHub/Public Dashboard)  |
+| * Cryptographic Proof of     |
+|   Hardware-Signed Commits   |
++-----------------------------+
