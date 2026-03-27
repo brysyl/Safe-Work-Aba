@@ -20,5 +20,6 @@ To verify the integrity of any heartbeat signature in this directory, follow the
 
 2. Verify the signature against the log file:
 
+```bash
  gpg --verify [date]-[dev-id].log.sig [date]-[dev-id].log
 
