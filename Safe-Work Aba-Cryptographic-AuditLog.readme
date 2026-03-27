@@ -1,0 +1,19 @@
+# 🛡️ Safe-Work Aba: Cryptographic Audit Log
+
+[![Status: Live](https://img.shields.io/badge/Status-Live_Verification-success?style=flat-square)](#)
+[![Standard: FIDO2](https://img.shields.io/badge/Standard-FIDO2%20/%20OpenPGP-blue?style=flat-square)](#)
+[![Location: Aba, NG](https://img.shields.io/badge/Location-Aba%2C%20Nigeria-orange?style=flat-square)](#)
+
+## 📋 Overview
+This directory serves as the **immutable proof-of-presence** for the SWA-Verified cohort. To maintain enterprise-grade trust, every 24 hours each active node (developer) must generate a telemetry log from the **SWA-Shield** and sign it using their unique **Hardware Root-of-Trust (YubiKey)**.
+
+This ensures that the developer is physically present, their environment is secure, and their identity is cryptographically verified.
+
+---
+
+## 🔍 Verification Instructions
+To verify the integrity of any heartbeat signature in this directory, follow these steps in your terminal:
+
+1. **Import the developer's public key:**
+   ```bash
+   gpg --import ./public-keys/[dev-id].asc
